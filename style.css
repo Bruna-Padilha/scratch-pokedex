@@ -20,7 +20,7 @@ body {
     overflow-x: hidden;
 }
 
-/* --- CAMADA DE FUNDO (CORRIGIDA PARA PASTA ÚNICA) --- */
+/* --- CAMADA DE FUNDO --- */
 .background-container {
     position: fixed;
     top: 0; left: 0;
@@ -30,14 +30,13 @@ body {
 
 .bg-image-local {
     width: 100%; height: 100%;
-    /* Como os arquivos estão na mesma pasta, usamos apenas o nome direto */
     background-image: url('background-pokedex.jpg'); 
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
-/* --- RESTANTE DO CSS DOS CARDS --- */
+/* --- CSS DOS CARDS --- */
 .main-wrapper { width: 100%; max-width: 1200px; padding: 20px; position: relative; }
 .main-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; }
 .logo { height: 50px; }
